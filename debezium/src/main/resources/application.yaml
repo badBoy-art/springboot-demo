@@ -2,28 +2,28 @@ timely:
   # 是否开启
   switch: true
   # 偏移量文件
-  offset-file-name: D:\IdeaProjects\ETFramework\debezium\docker\offsets.dat
+  offset-file-name: /Users/admin/Projects/debeziumTest/offsets/offset.dat
   # 是否启东时清除偏移量文件
   offset-file-clean: true
   # 偏移量提交时间 单位ms
   offset-time: 1
   # 读取历史记录文件
-  history-file-name: D:\IdeaProjects\ETFramework\debezium\docker\dbhistory.dat
+  history-file-name: /Users/admin/Projects/debeziumTest/history/custom-file-db-history.dat
   # 读取的数据库信息
   offline:
     ip: 127.0.0.1
     port: 3306
     username: root
-    password: root
+    password: zhaoZ1230
     # 保证每个数据库读取的 instance-name  logic-name 不能相同
     # 实例名
     instance-name: mysql-connector
     # 逻辑名
     logic-name: mysql-customer
     # 读取的表
-    include-table: dbo.vehicle
+    include-table: user
     # 读取的库
-    include-db: demo
+    include-db: test
     #mysql.cnf 配置的 server-id
     server-id: 1
 
