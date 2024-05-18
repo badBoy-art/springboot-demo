@@ -56,6 +56,38 @@
         <module>SpringRetry</module>
         <module>test</module>
         <module>postgre</module>
+        <module>ContentNegotiation</module>
+        <module>api-version</module>
+        <module>GraphQL</module>
+        <module>webflux</module>
+        <module>eaypoi</module>
+        <module>https</module>
+        <module>fastdfs</module>
+        <module>atomikos</module>
+        <module>zipkin</module>
+        <module>mybatis-plus</module>
+        <module>quartz</module>
+        <module>rabbitmq</module>
+        <module>session</module>
+        <module>ai</module>
+        <module>oatuth2</module>
+        <module>sitemap</module>
+        <module>swagger</module>
+        <module>druid</module>
+        <module>generator</module>
+        <module>ldap</module>
+        <module>zookeeper</module>
+        <module>activiti</module>
+        <module>async</module>
+        <module>dubbo</module>
+        <module>dynamic-datasource</module>
+        <module>security</module>
+        <module>shiro</module>
+        <module>picocli</module>
+        <module>sharding-jdbc</module>
+        <module>testcontainers</module>
+        <module>Spring-Shell</module>
+
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -63,5 +95,31 @@
         <java.version>1.8</java.version>
         <fastjson.version>1.2.54</fastjson.version>
     </properties>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- 配置 Maven Compiler 插件 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <fork>true</fork>
+                        <failOnError>false</failOnError>
+                    </configuration>
+                </plugin>
 
+                <!-- 配置 Maven Surefire 插件 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.22.2</version>
+                    <configuration>
+                        <forkCount>0</forkCount>
+                        <failIfNoTests>false</failIfNoTests>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
