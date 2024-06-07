@@ -91,6 +91,19 @@
         <module>banner</module>
         <module>SpEL</module>
         <module>rss</module>
+        <module>tidb</module>
+        <module>Statemachine</module>
+        <module>freemaker</module>
+        <module>sse</module>
+        <module>Spring-Task-Scheduler</module>
+        <module>hana</module>
+        <module>thymeleaf</module>
+        <module>GeoTools</module>
+        <module>geodesy</module>
+        <module>pmd</module>
+        <module>tablesaw</module>
+        <module>tika</module>
+        <module>ANTLR</module>
 
     </modules>
     <properties>
