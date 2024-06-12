@@ -69,7 +69,7 @@
         <module>quartz</module>
         <module>rabbitmq</module>
         <module>session</module>
-        <module>ai</module>
+      <!--  <module>ai</module>-->
         <module>oatuth2</module>
         <module>sitemap</module>
         <module>swagger</module>
@@ -84,7 +84,7 @@
         <module>security</module>
         <module>shiro</module>
         <module>picocli</module>
-        <module>sharding-jdbc</module>
+       <!-- <module>sharding-jdbc</module>-->
         <module>testcontainers</module>
         <module>Spring-Shell</module>
         <module>validtion</module>
@@ -104,6 +104,8 @@
         <module>tablesaw</module>
         <module>tika</module>
         <module>ANTLR</module>
+        <module>vavr</module>
+        <!--  <module>vaadin</module>-->
 
     </modules>
     <properties>

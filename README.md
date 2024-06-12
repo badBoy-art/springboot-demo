@@ -104,9 +104,9 @@ a simple springboot demo with some components for example: redis,solr,rockmq and
 | 91          | WebRTC                | springboot with WebRTC             | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
 | 92          | vavr                  | springboot with vavr               | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
 | 93          | Vaadin                | springboot with Vaadin             | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
-| 94          | timefold-solver       | springboot with timefold-solver    | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
-| 95          | ANTLR                 | springboot with ANTLR              | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
-| 96          | Tika                  | springboot with Tika               | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
+| 94          | timefold-solver       | springboot with timefold-solver    | [CN](http://www.liuhaihua.cn/archives/710712.html) / [EN](https://medium.com/@jxausea/spring-boot-implements-timefold-solver-for-curriculum-orchestration-840acbc2d1b0) | done   |
+| 95          | ANTLR                 | springboot with ANTLR              | [CN](http://www.liuhaihua.cn/archives/710686.html) / [EN](https://jxausea.medium.com/spring-boot-integrates-antlr-for-lexical-and-syntactic-analysis-56c4184581c5) | done   |
+| 96          | Tika                  | springboot with Tika               | [CN](http://www.liuhaihua.cn/archives/710679.html) / [EN](https://jxausea.medium.com/spring-boot-integrates-tika-to-convert-word-to-html-13142d11b174)                               | done   |
 | 97          | tablesaw              | springboot with tablesaw           | [CN](http://www.liuhaihua.cn/archives/710673.html) / [EN](https://jxausea.medium.com/spring-boot-integrating-the-tablesaw-plug-in-quick-start-demo-db183ef7747b)                     | done   |
 | 98          | pmd                   | springboot with pmd                | [CN](http://www.liuhaihua.cn/archives/710665.html) / [EN](https://jxausea.medium.com/spring-boot-integration-pmd-plugin-quick-start-demo-a1353113b910)                               | done   |
 | 99          | GeoTools              | springboot with GeoTools           | [CN](http://www.liuhaihua.cn/archives/710655.html) / [EN](https://jxausea.medium.com/spring-boot-integrated-geotools-quick-start-demo-efa504bed7fd)                                  | done   |
@@ -124,13 +124,13 @@ a simple springboot demo with some components for example: redis,solr,rockmq and
 | 112         | geodesy               | springboot with  geodesy           | [CN](http://www.liuhaihua.cn/archives/710663.html) / [EN](https://jxausea.medium.com/spring-boot-integrates-geodesy-to-implement-distance-calculation-92680c008417)                  | done   |
 | 113         | findbug               | springboot with  findbug           | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
 | 114         | checkstyle            | springboot with  checkstyle        | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
-| 115         | jacoco                | springboot with  jacoco            | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
-
+| 115         | jacoco                | springboot with  jacoco            | [CN](###) / [EN](###)   | todo   |
+| 116         | gemfire               | springboot with  gemfire           | [CN](###) / [EN](###)   | todo   |
 
 ### Remark
 
 
-> The  module（ai、sharding-jdbc） is based on  Spring Boot 3.x and JDK 17, the others are based on Spring Boot  2.X and JDK 8
+> The  module（ai、sharding-jdbc、Timefold Solver） is based on  Spring Boot 3.x and JDK 17, the others are based on Spring Boot  2.X and JDK 8
 
 if you need some components to integrate with Spring Boot,tell me ,I will help you!  you can also leave a message in issues.
 
