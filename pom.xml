@@ -105,6 +105,9 @@
         <module>tika</module>
         <module>ANTLR</module>
         <module>vavr</module>
+        <module>WebRTC</module>
+        <module>xstream</module>
+        <module>Tensorflow</module>
         <!--  <module>vaadin</module>-->
 
     </modules>
