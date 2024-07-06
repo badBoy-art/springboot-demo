@@ -117,6 +117,10 @@
         <module>jasypt</module>
         <module>gemfire</module>
         <module>checkstyle</module>
+        <module>jacoco</module>
+        <module>fastjson2</module>
+        <module>olingo</module>
+        <module>webservice</module>
         <!--  <module>vaadin</module>-->
 
     </modules>
