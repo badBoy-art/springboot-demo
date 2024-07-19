@@ -127,8 +127,13 @@
         <module>drools</module>
         <module>pf4j</module>
         <module>poster</module>
+        <module>groovy</module>
+        <module>kudu</module>
+        <module>syslog</module>
+        <module>sftp</module>
+        <module>SpringBatch</module>
+        <module>starrocks</module>
 
-        <!--  <module>vaadin</module>-->
 
     </modules>
     <properties>

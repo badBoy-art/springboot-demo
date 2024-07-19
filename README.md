@@ -81,7 +81,7 @@ a simple springboot demo with some components for example: redis,solr,rockmq and
 | 68            | GraphQL               | springboot with GraphQL            | [CN](http://www.liuhaihua.cn/archives/710416.html) / [EN](https://jxausea.medium.com/spring-boot-integrated-graphql-quick-start-demo-026dfaf289c0)                                   | done   |
 | 69            | postgres              | springboot with postgres           | [CN](http://www.liuhaihua.cn/archives/710398.html) / [EN](https://jxausea.medium.com/spring-boot-integrated-debezium-implements-postgres-cdc-a016ecfb3176)                           | done   |
 | 70            | webflux               | springboot with webflux            | [CN](http://www.liuhaihua.cn/archives/710420.html) / [EN](https://jxausea.medium.com/spring-boot-integrated-webflux-quick-start-demo-0e226ef39b03)                                   | done   |
-| 71            | poster                | springboot with poster             | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
+| 71            | poster                | springboot with poster             | [CN](http://www.liuhaihua.cn/archives/710880.html) / [EN](https://medium.com/@jxausea/spring-boot-integrated-easyposter-quick-start-demo-fe4fee43a918)                               | done   |
 | 72            | AI                    | springboot with AI                 | [CN](http://www.liuhaihua.cn/archives/710471.html) / [EN](https://medium.com/@jxausea/spring-boot-integrated-spring-ai-achieve-quick-access-openapi-61becfc47bc8)                    | done   |
 | 73            | grpc                  | springboot with grpc               | [CN](http://www.liuhaihua.cn/archives/710852.html) / [EN](https://jxausea.medium.com/spring-boot-integrated-grpc-quick-start-demo-0cf7d217551f)                                      | done   |
 | 74            | StateMachine          | springboot with StateMachine       | [CN](http://www.liuhaihua.cn/archives/710634.html) / [EN](https://medium.com/@jxausea/spring-boot-integration-statemachine-quick-start-demo-ae973bf334c1)                            | done   |
@@ -119,17 +119,17 @@ a simple springboot demo with some components for example: redis,solr,rockmq and
 | 106           | banner                | springboot with  banner            | [CN](http://www.liuhaihua.cn/archives/710608.html) / [EN](https://jxausea.medium.com/spring-boot-integrates-banners-to-implement-a-demo-for-quick-reading-dbf76d9cb5c0)              | done   |
 | 107           | rss                   | springboot with  rss               | [CN](http://www.liuhaihua.cn/archives/710623.html) / [EN](https://jxausea.medium.com/spring-boot-integration-rss-quick-start-demo-e2a61c6ca26f)                                      | done   |
 | 108           | sse                   | springboot with  sse               | [CN](http://www.liuhaihua.cn/archives/710637.html) / [EN](https://jxausea.medium.com/spring-boot-integrates-sse-to-implement-chatgpt-streaming-interaction-c8f218b7a330)             | done   |
-| 109           | Qwen1.5-7B-Chat       | springboot with  Qwen1.5-7B-Chat   | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
+| 109           | Qwen1.5-7B-Chat       | springboot with  Qwen1.5-7B-Chat   | [CN](http://www.liuhaihua.cn/archives/710888.html) / [EN](https://medium.com/@jxausea/spring-boot-integrates-qwen-0-5b-to-implement-the-chat-function-4693954b54f1)                  | done   |
 | 111           | hana                  | springboot with  hana              | [CN](http://www.liuhaihua.cn/archives/710646.html) / [EN](https://medium.com/@jxausea/spring-boot-integration-with-hana-quick-start-demo-64f60744a5bb)                               | done   |
 | 112           | geodesy               | springboot with  geodesy           | [CN](http://www.liuhaihua.cn/archives/710663.html) / [EN](https://jxausea.medium.com/spring-boot-integrates-geodesy-to-implement-distance-calculation-92680c008417)                  | done   |
 | 113           | findbug               | springboot with  findbug           | [CN](http://www.liuhaihua.cn/archives/710780.html) / [EN](https://jxausea.medium.com/spring-boot-integrated-findbug-quick-start-demo-778905ef74d5)                                   | done   |
-| 114           | groovy                | springboot with  groovy            | [CN](###) / [EN](###)                                                                                                                                                                | todo   |
+| 114           | groovy                | springboot with  groovy            | [CN](http://www.liuhaihua.cn/archives/710885.html) / [EN](https://medium.com/@jxausea/spring-boot-integrated-groovy-quick-start-demo-35c7533c3304)                                   | done   |
 
 
 ### Remark
 
 
-> The  module（ai、sharding-jdbc、Timefold Solver、vaadin） is based on  Spring Boot 3.x and JDK 17, the others are based on Spring Boot  2.X and JDK 8
+> The  module（qwen、sai、sharding-jdbc、Timefold Solver、vaadin） is based on  Spring Boot 3.x and JDK 17, the others are based on Spring Boot  2.X and JDK 8
 
 if you need some components to integrate with Spring Boot,tell me ,I will help you!  you can also leave a message in issues.
 
