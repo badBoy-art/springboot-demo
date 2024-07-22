@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springboot-demo</artifactId>
+        <groupId>com.et</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xjar</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.core-lib</groupId>
+            <artifactId>xjar</artifactId>
+            <version>4.0.2</version>
+            <!-- <scope>test</scope> -->
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+        <!-- set  jitpack.io pluginresponsitory -->
+        <pluginRepositories>
+            <pluginRepository>
+                <id>jitpack.io</id>
+                <url>https://jitpack.io</url>
+            </pluginRepository>
+        </pluginRepositories>
+        <!-- add XJar Maven plugin -->
+        <build>
+            <plugins>
+
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.core-lib</groupId>
+                    <artifactId>xjar-maven-plugin</artifactId>
+                    <version>4.0.2</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>build</goal>
+                            </goals>
+                            <!--yoou can change install-->
+                            <phase>package</phase>
+                            <configuration>
+                                <password>xxxx</password>
+                                <!-- need enc resources -->
+                                <includes>　　　　　　　　　
+                                    <include>com/et/**</include>
+                                    <include>mapper/*Mapper.xml</include>
+                                    <include>config/**</include>
+                                </includes>
+                                <!-- no need enc resources -->
+                                <excludes>
+                                    <exclude>static/**</exclude>
+                                    <exclude>META-INF/**</exclude>
+                                </excludes>
+                                <!--target jar dir -->
+                                <targetDir>${project.build.directory}\xJarDir\</targetDir>
+                                <!-- target jar name -->
+                                <targetJar>zsplat.jar</targetJar>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+
+
+</project>
