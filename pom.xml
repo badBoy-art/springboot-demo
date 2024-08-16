@@ -140,6 +140,15 @@
         <module>canal</module>
         <module>echarts</module>
         <module>JMH</module>
+        <module>seata</module>
+        <module>ipfilter</module>
+        <module>annotations</module>
+        <module>desensitization</module>
+        <module>Undertow</module>
+        <module>sentinel</module>
+        <module>Selenium</module>
+        <module>devtools</module>
+        <module>InterfaceSecurity</module>
 
     </modules>
     <properties>
