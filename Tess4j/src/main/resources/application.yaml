@@ -1,0 +1,5 @@
+server:
+  port: 8088
+
+tess4j:
+  datapath: D:/tmp

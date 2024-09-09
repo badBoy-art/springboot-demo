@@ -156,6 +156,12 @@
         <module>cors</module>
         <module>Kubernetes</module>
         <module>stripe</module>
+        <module>SoftwareLicense</module>
+        <module>MFA</module>
+        <module>file</module>
+        <module>aspect</module>
+        <module>Tess4j</module>
+        <module>hazelcast-jet</module>
 
     </modules>
     <properties>
