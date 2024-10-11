@@ -166,6 +166,8 @@
         <module>akka</module>
         <module>Lombok</module>
         <module>xss</module>
+        <module>ehcache</module>
+        <module>BloomFilter</module>
 
     </modules>
     <properties>
